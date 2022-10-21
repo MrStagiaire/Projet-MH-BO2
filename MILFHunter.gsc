@@ -59,14 +59,14 @@ onPlayerSpawned()
           if(self isVerified())
           {
                self thread welcomeMessage();
-               self iprintln("MILFHunter");
+               self iprintln("MHDevBO2");
           }
      }
 }
 welcomeMessage()
 {
 	notifyData = spawnstruct();
-	notifyData.titleText = "^5Binvenue ^2" + self.name + "^5Pour ^F6MILFHunter ^1Racing ^2v1";
+	notifyData.titleText = "^5Binvenue ^2" + self.name + "^5Pour ^F6MHDevBO2 ^1Racing ^2v1";
 	notifyData.notifyText = "^5Voila ^1mon ^6chef!";
 	notifyData.iconName = "lui_loader_no_offset";
 	notifyData.glowColor = (0, 0, 1);
