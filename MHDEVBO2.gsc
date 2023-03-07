@@ -1,7 +1,15 @@
-#include maps\mp\_utility;
-#include common_scripts\utility;
-#include maps\mp\gametypes\_hud_util;
-#include maps\mp\gametypes\_hud_message;
+// #include maps\mp\_utility;
+// #include common_scripts\utility;
+// #include maps\mp\gametypes\_hud_util;
+// #include maps\mp\gametypes\_hud_message;
+#include maps/mp/_utility;
+#include common_scripts/utility;
+#include maps/mp/gametypes/_hud_util;
+#include maps/mp/gametypes/_Weapons;
+#include maps/mp/gametypes/_globallogic_utils; 
+#include maps/mp/gametypes/_hostmigration;
+#include maps/mp/killstreaks/_ai_tank;
+#include maps/mp/gametypes/_hud_message;
 
 init()
 {
